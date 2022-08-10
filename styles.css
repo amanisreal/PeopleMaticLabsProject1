@@ -1,0 +1,502 @@
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .container{
+    width:414px;
+    height: 5510px;
+} */
+
+.headerContainer{
+    display: flex;
+    /* height:112px;
+    width:414px; */
+    position: absolute;
+}
+
+.leftSide{
+    position: absolute;
+    top: 17px;
+    left: 25px;
+    right:285px;
+    /* height:51.37px;
+    width:104px; */
+}
+
+.rightSide{
+    position: absolute;
+    top:48px;
+    left:371px;
+    right:23px;
+}
+
+.computerRightSide{
+    opacity: 0;
+}
+
+
+/*Main*/
+
+.commonTextStyling{
+
+}
+
+.mainContainer{
+    position: relative;
+}
+
+.mainNameOne{
+    font-weight: 700;
+    font-size:16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+.mainPageOne{
+    width: 414px;
+    height: 778px;
+    position: absolute;
+    background: #FAFAFA;
+}
+
+#mainPageOne{
+    top: 112px;
+}
+
+.mainNameOne{
+    position: absolute;
+    top:50px;
+    left:167px;
+    right:167px;
+    font-size:16px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.mainHeaadingOne{
+    height: 128px;
+    width:391px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.5px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    position: absolute;
+    top:91px;
+    left:11.5px;
+}
+
+.manDownloadTitle{
+    position: absolute;
+    top:246px;
+    left:36px;
+    right:36px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 00.2px;
+    text-align: center;
+}
+
+.commonButtonStyle{
+    width: 236px;
+    height: 68px;
+    padding: 16px 0px;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    border: none;
+    position: absolute;
+}
+
+.playstoreButton{
+    top:372px;
+    left:89px;
+    right: 89px;
+    color:#ffffff;
+    background: #FA4A0C;
+}
+
+.appStoreButton{
+    top:457px;
+    left:89px;
+    background: #ffffff;
+    color:#fa4a0c;
+    border: 2px solid  #FA4A0C;
+    border-radius: 30px;
+}
+
+.commanImageStyle{
+    position: absolute;
+}
+
+.pageOneLeftMobileImage{
+    top:547px;
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21))
+}
+
+.pageOneRightMobileImage{
+    width: 219px;
+    height:408px;
+    top:743px;
+    left: 187px;
+}
+
+.appWorks{
+    position: absolute;
+    width: 242px;
+    top:1267px;
+    left:86px;
+    height:36px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+.horizontalLine{
+    position: absolute;
+    width: 414px;
+    top:1352px;
+    left: -1px;
+    background: #E4E4E4;
+    height: 0;
+    border: 3px solid #E4E4E4;
+}
+
+.createAccText{
+    width: 232px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    position: absolute;
+    top:1417px;
+    left:90px;
+    right:92px;
+    color: #FA4A0C
+}
+
+.createAccHeading{
+    height:228px;
+    width:337px;
+    position: absolute;
+    top:1493px;
+    left:37.5px;
+    right:39.5px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 00.2px;
+    text-align: center;
+}
+
+.createAccText2{
+    width:257px;
+    height: 152px;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2;
+    top:1771px;
+    left:77.5px;
+    right: 79.5px;
+    text-align: center;
+}
+
+.loginSignUpContainer{
+    position: absolute;
+    top: 1820px;
+    width: 650px;
+}
+
+.exploreWhileShoppingContainer{
+    position: absolute;
+    top:2465.18px;
+    border: 2px solid red;
+}
+
+.exploreContainerContent{
+    position: relative;
+}
+
+.exploreH3heading{
+    position: absolute;
+    top:100px;
+    width: 299px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #FA4A0C;
+    left:57.5px;
+    right:57.5px;
+}
+
+.exploreH2heading{
+    width:327px;
+    height: 171px;
+    position: absolute;
+    top:176px;
+    left: 43.5px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.exploreH4heading{
+    width: 257px;
+    height: 152px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    position: absolute;
+    top: 397px;
+    left: 78.5px;
+}
+
+.exploreContainerImage{
+    position: absolute;
+    top:428.82px;
+}
+
+.checkOutContainer{
+    position: relative;
+    top: 2636.48px;
+}
+
+.checkOutContainerContent{
+    position: relative;
+    width: 414px;
+    height:711px;
+}
+
+.checkoutH3heading{
+    width: 123px;
+    height: 36px;
+    position: absolute;
+    top: 100px;
+    left: 145.5px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #FA4A0C;
+}
+
+.checkoutH2Heading{
+    width: 316px;
+    height: 223px;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    position: absolute;
+    top:176px;
+    left: 49px;
+}
+
+.checkoutH4Heading{
+    text-align: center;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    top: 449px;
+    left: 78.5px;
+    right:78.5px;
+    z-index: 1;
+}
+
+.checkoutImage{
+    position: absolute;
+    top:480px;
+}
+
+.downloadAppContainer{
+    position: absolute;
+    top:4774px;
+}
+
+.downloadAppContainerContent{
+    position: relative;
+    width:414px;
+    gap:50px;
+    height: 564px;
+    background: #252B42;
+}
+
+.downloadH2Heading{
+    position: absolute;
+    top:120px;
+    left: 54px;
+    right: 54px;
+    color: #ffffff;
+    width:310px;
+    height: 114px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.downloadH4Heading{
+    position: absolute;
+    top: 254px;
+    left: 86.5px;
+    height:76px;
+    width:245px;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    text-align: center;
+    color: #BDBDBD;
+}
+
+.downloadButtons{
+    display: flex;
+}
+
+.BuyNowButton{
+    position: absolute;
+    width: 137px;
+    height: 64px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2;
+    top: 390px;
+    left: 39.5px;
+    right: 241.5px;
+    border-radius: 10px;
+    background: #FA4A0C;
+    border: none;
+    color:#ffffff;
+}
+
+.tryForFreeButton{
+    position: absolute;
+    top: 392px;
+    left: 192.5px;
+    right:39.5px;
+    width: 186px;
+    height: 60px;
+    border-radius: 10px;
+    border-color: #ffffff;
+    background: #252B42;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+
+/*Footer*/
+
+.footerContainer{
+    width: 433px;
+    height: 225px;
+    position: absolute;
+    top:5305px;
+    left: -10px;
+}
+
+.logos{
+    position: relative;
+}
+
+.twitterLogo{
+    position: absolute;
+    top:119.96px;
+    left:135.84px;
+    right:263.86px;
+    bottom:77.98px;
+}
+
+.facebookLogo{
+    position: absolute;
+    top:117.48px;
+    left:201.47px;
+    right:199.51px;
+    bottom:75.5px;
+}
+
+.linkedinLogo{
+    position: absolute;
+    top:117.48px;
+    left:266.46px;
+    right:132.52px;
+    bottom:75.5px;
+}
+
+.footerText{
+    width: 214px;
+    height: 18px;
+    position: absolute;
+    top:162px;
+    left:109px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+    color: #5c5c5c;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*-------------------Desktop View ------------------------------*/
+@media screen and(min-width: 768px) {
+
+    
+    .container{
+        width:1440px !important;
+        border: 2px solid red;
+    }
+
+    .headerLogo{
+        top:26.12px;
+        left:90px;
+        right:1144px;
+        height:101.76px;
+        width:206px;
+    }
+
+    .headerHamburgerLogo{
+        display: none;
+    }
+
+    .computerRightSide{
+        opacity: 1;
+    }
+
+    .headerContainer{
+        width:1440px;
+    }
+
+    .leftSide{
+        left:90px;
+        top:27.12px;
+        right:11444px;
+    }
+}
